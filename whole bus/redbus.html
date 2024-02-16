@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in page</title>
+</head>
+<style>
+video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -999;   
+}
+#container{
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 368.10px;
+    left: 23%;
+    color: black;
+    height: 400px;
+    text-align: center;
+    position: absolute;
+    margin: 11%;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px;
+}
+button{
+    border-radius: 9px;
+    cursor: pointer;
+    position: absolute;
+    left: 37%;
+    top: 155%;
+    transition: all;
+    transition-duration: 1s;
+    transition-property: all;
+}
+button:hover{
+    background: aqua;
+}
+input{
+    border-color: red;
+}
+</style>
+<body>
+    <video src="bus video.mp4" autoplay muted loop></video>
+    <div id="container">
+    <form action="mainbus.html">
+    <h1 style="margin-top: 16%;">LOGIN IN</h1>
+    <div class="txt" style="position: absolute; top: 195px;display: flex; gap: 36px; flex-wrap: wrap;left: 31px;">  
+    USERNAME 
+    <input type="text" placeholder="username">
+    PASSWORD
+    <input type="text" placeholder="*******">
+    <button>
+    submit
+    </button>
+   </div>
+</from>
+   </div>
+   </div> 
+</body>    
+</html>
+    
